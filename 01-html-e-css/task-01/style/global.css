@@ -15,18 +15,25 @@
     color: var(--text);
 }
 
-body {
+body, .footer, .navbar{
     background-color: var(--background);
 }
 
 main{
-    padding: 24px 48px;
+    padding: 58px 60px 80px;
+}
+
+.navbar{
+    top: 0;
 }
 
 .navbar, .footer {
     box-shadow: 0px 0px 4px;
     padding: 20px;
     text-align: center;
+    
+    width: 100vw;
+    position: fixed;
 }
 
 .navbar a, .footer a {
@@ -35,7 +42,7 @@ main{
 }
 
 .navbar a:hover{
-    border-bottom: 3px solid var(--secondary);
+    border-bottom: 2px solid var(--secondary);
     border-radius: 5px;
 }
 
@@ -45,4 +52,8 @@ main{
 
 a > i{
     color: var(--primary);
+}
+
+.footer{
+    bottom: 0;
 }
