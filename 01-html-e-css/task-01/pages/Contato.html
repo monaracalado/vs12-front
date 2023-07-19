@@ -7,6 +7,14 @@
     <meta name = "keywords" content = "gato, adoção">
     <meta name = "description" content = "Motivos para você adotar um gatinho!">
 
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/contato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/icon-gato.png" type="image/PNG">
@@ -16,10 +24,10 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="../index.html"><img src="../assets/house-solid.svg" width="15rem" alt=""> Inicio</a><br>
-            <a href="./Sobre.html"><img src="../assets/people-roof-solid.svg" width="15rem" alt=""> Sobre Nós</a><br>
-            <a href="#"><img src="../assets/phone-solid.svg" width="15rem" alt=""> Contato</a>
+        <nav class="navbar">
+            <a href="../index.html"><i class="fa-solid fa-house fa-sm"></i> Inicio</a>
+            <a href="./Sobre.html"><i class="fa-solid fa-people-roof"></i> Sobre Nós</a>
+            <a href="#"><i class="fa-solid fa-phone"></i> Contato</a>
         </nav>
     </header>
     <main>
@@ -34,25 +42,24 @@
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email" placeholder="Escreva seu e-mail" required>
                 <label for="fone">Celular:</label>
-                <input type="number" name="fone" id="fone" placeholder="Escreva seu número" required>
+                <input type="tel" name="fone" id="fone" placeholder="Escreva seu número" required>
                 <br><br>
                 <label for="endereco">Endereço:</label>
                 <input type="text" name="endereco" id="endereco" placeholder="Escreva seu endereço" required>
                 <label for="description">Motivo:</label>
-                <textarea name="description" id="description" cols="40" rows="1" placeholder="Escreva seu motivo para adotar um gatonho!" required></textarea>
+                <textarea name="description" id="description" cols="40" rows="1" placeholder="Escreva seu motivo para adotar um gatonho!" required></textarea><br><br>
                 
 
                 <button type="submit">Enviar</button>
             </form>
         </fieldset>
 
+        
     </main>
-    <footer>
-        <br>
-            <a href="https://github.com/monaracalado" target="_blank"><img src="../assets/github.svg" width="20rem" alt="Link de redirecionamento para o GitHub"></i></a>
-            <a href="https://www.linkedin.com/in/monaracalado/" target="_blank"><img src="../assets/linkedin.svg" width="20rem" alt="Link de redirecionamento para o LinkedIn"></a>
-            <br>
-            <span>&copy; 2023 Developed by <strong>Monara Calado</strong></span>
+    <footer class="footer">
+        <a href="https://github.com/monaracalado" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a>
+        <a href="https://www.linkedin.com/in/monaracalado/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+            <p>&copy; 2023 Developed by <strong>Monara Calado</strong></p>
     </footer>
 </body>
 </html>
