@@ -10,8 +10,9 @@
   <a href="#-sobre-o-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;
 </p>
 <p align="center">
-  <img alt="imagem do site Adote um gatinho" src="./01-html-e-css/task-02/assets/site-gatinho.png">
+  <img alt="imagem do site Adote um gatinho" src="./assets/site-gatinho.png">
 </p>
+
 
 ## 🚀 Tecnologias
 
