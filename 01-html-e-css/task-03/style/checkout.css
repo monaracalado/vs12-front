@@ -1,11 +1,17 @@
+h1,.text-bold,.text-total,button{
+    font-weight: 700;
+}
+
+section,.container,form,.revisao,.precos, .pedido,.selec,.qtd,.valores,button{
+    display: flex;
+}
+
 h1{
     font-size: 2rem;
-    font-weight: 700;
     padding-bottom: 2.25rem;
 }
 
 section{
-    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -13,7 +19,6 @@ section{
 }
 
 form{
-    display: inline-flex;
     padding: 1.75rem 2rem;
     flex-direction: column;
     justify-content: center;
@@ -40,7 +45,6 @@ input::placeholder{
 .container{
     width: 35.9375rem;
     height: 43.5rem;
-    display: inline-flex;
     padding: 1.75rem 2rem;
     flex-direction: column;
     justify-content: space-between;
@@ -48,16 +52,13 @@ input::placeholder{
     gap: 1.9375rem;
     border-radius: 0.25rem;
     background: var(--background);
-    flex: 1 1 350px;
 }
 
 .revisao{
     font-size: 1.125rem;
     font-weight: 600;
-    display: flex;
     width: 32.4375rem;
     height: 9rem;
-    gap: 1.9375rem;
     border-bottom: 1px solid #D6D6D6;
 }
 
@@ -66,8 +67,7 @@ input::placeholder{
     height: 6.25rem;
 }
 
-.precos, .pedido,.selec,.qtd{
-    display: flex;
+.precos, .pedido,.selec,.qtd,.revisao{
     gap: 1.9375rem;
 }
 
@@ -76,7 +76,6 @@ input::placeholder{
 }
 
 .selec{
-    display: inline-flex;
     align-items: center;
     gap: 1.5rem;
 }
@@ -88,7 +87,6 @@ input::placeholder{
 }
 
 .precos{
-    display: flex;
     justify-content: space-between;
     align-items: flex-start;
     width: 32.4375rem;
@@ -99,14 +97,12 @@ input::placeholder{
 }
 
 .valores{
-    display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
 .text-bold{
     font-size: 1.25rem;
-    font-weight: 700;
     gap: 1.9375rem;
 }
 
@@ -124,12 +120,10 @@ input::placeholder{
 
 .text-total{
     font-size: 1.125rem;
-    font-weight: 700;
     gap: 1.9375rem;
 }
 
 button{
-    display: flex;
     width: 32.8125rem;
     padding: 0.6875rem 9.5rem;
     justify-content: center;
@@ -141,6 +135,5 @@ button{
     color: #FFF;
     text-align: justify;
     font-size: 1.375rem;
-    font-weight: 700;
     border: none;
 }
