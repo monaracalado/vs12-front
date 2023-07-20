@@ -1,0 +1,96 @@
+.intr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 6.46rem;
+}
+
+h1{
+    width: 38.72419rem;
+    height: 10.80713rem;
+    color: #000;
+    font-size: 2.625rem;
+    font-weight: 700;
+}
+
+.p-intr{
+    width: 38.01894rem;
+    height: 5.08569rem;
+    color: #000;
+    text-align: justify;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.btn-intr{
+    border-radius: 0.25rem;
+    border: none;
+    background: #B47150;
+    width: 18.20806rem;
+    height: 3.3905rem;
+    color: #FFF;
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.cards{
+    display: flex;
+    height: 25.5rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+
+
+.card{
+    width: 18.75rem;
+    height: 23.75rem;
+    border-radius: 0.25rem 0.75rem;
+    background: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* .card img{
+    position: relative;
+    top: -1.75rem;
+} */
+
+.card span{
+    padding: 0.3125rem 1rem;
+    gap: 0.625rem;
+    border-radius: 1rem;
+    background: #B47150;
+    color: var(--white, #FBFBFB);
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.div-span{
+    width: 12.25rem;
+    height: 1.5625rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    color: #000;
+    text-align: justify;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.text-card{
+    text-align: center;
+    width: 12.8125rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.preco{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
