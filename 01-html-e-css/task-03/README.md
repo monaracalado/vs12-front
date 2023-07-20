@@ -4,14 +4,14 @@
 </p>
 
 
-
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-sobre-o-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;
 </p>
 <p align="center">
-  <img alt="imagem do site VemSer Coffee" src="./01-html-e-css/task-03/assets/site-coffee.png">
+  <img alt="imagem do site VemSer Coffee" src="./assets/site-coffee.png">
 </p>
+
 
 
 ## 🚀 Tecnologias
@@ -27,4 +27,4 @@ Este projeto foi feito a partir da recriação de um site tendo como base um mod
 
 
 
-<img alt="imagem do site VemSer Coffee" src="./01-html-e-css/task-03/assets/creditos.png">
+<img alt="imagem do site VemSer Coffee" src="./assets/creditos.png">
