@@ -1,0 +1,142 @@
+h1,.text-bold,.text-total,button{
+    font-weight: 700;
+}
+
+section,.container,form,.revisao,.precos, .pedido,.selec,.qtd,.valores,button{
+    display: flex;
+}
+
+h1{
+    font-size: 2rem;
+    padding-bottom: 2.25rem;
+}
+
+section{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 7.19rem;
+}
+
+form{
+    padding: 1.75rem 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.9375rem;
+    border-radius: 0.25rem;
+    background: var(--background);
+}
+
+input{
+    width: 31.9375rem;
+    height: 4.25rem;
+    background: #C6C6C6;
+    border: none;
+}
+
+input::placeholder{
+    color: #1E1A1D;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 1.38rem 0 1.37rem 1.25rem;
+}
+
+.container{
+    width: 35.9375rem;
+    height: 43.5rem;
+    padding: 1.75rem 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.9375rem;
+    border-radius: 0.25rem;
+    background: var(--background);
+}
+
+.revisao{
+    font-size: 1.125rem;
+    font-weight: 600;
+    width: 32.4375rem;
+    height: 9rem;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.revisao > img{
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+.precos, .pedido,.selec,.qtd,.revisao{
+    gap: 1.9375rem;
+}
+
+.pedido{
+    flex-direction: column;
+}
+
+.selec{
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.qtd, .selec img{
+    height: 2.375rem;
+    background: #C6C6C6;
+    padding: 0.5rem 1.0625rem;
+}
+
+.precos{
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 32.4375rem;
+}
+
+.valores p, .total p{
+    margin-bottom:1.06rem ;
+}
+
+.valores{
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.text-bold{
+    font-size: 1.25rem;
+    gap: 1.9375rem;
+}
+
+.text-med{
+    font-size: 1.125rem;
+    font-weight: 400;
+    gap: 1.9375rem;
+}
+
+.text-light{
+    font-size: 1rem;
+    font-weight: 400;
+    gap: 1.9375rem;
+}
+
+.text-total{
+    font-size: 1.125rem;
+    gap: 1.9375rem;
+}
+
+button{
+    width: 32.8125rem;
+    padding: 0.6875rem 9.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.25rem;
+    background: var(--primary
+    );
+    text-align: justify;
+    font-size: 1.375rem;
+    border: none;
+}
+
+button > a{
+    color: #FFF;
+}
