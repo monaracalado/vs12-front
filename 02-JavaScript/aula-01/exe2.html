@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+</head>
+<body>
+    <h1>Exercicio 2</h1>
+    <script>
+        let primeiroValor = parseInt(prompt("Vamos somar dois números naturais\nEscreva o primeiro número natural:"));
+        while(isNaN(primeiroValor) || primeiroValor <=0){
+            alert("Escreva um valor valido!");
+            primeiroValor = parseInt(prompt("Escreva o primeiro número natural:"));
+        };
+        let segundoValor = parseInt(prompt("Escreva o segundo número natural:"));
+        while(isNaN(segundoValor) || segundoValor <0){
+            alert("Escreva um valor valido!");
+            segundoValor = parseInt(prompt("Escreva o segundo número natural:"));
+        };
+        function soma(a,b){
+            return a + b;
+        }
+        alert(`O resultado da soma foi: ${primeiroValor} + ${segundoValor} = ${soma(primeiroValor,segundoValor)}`)
+    </script>
+</body>
+</html>
