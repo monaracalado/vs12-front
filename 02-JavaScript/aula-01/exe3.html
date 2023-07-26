@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+</head>
+<body>
+    <h1>Exercicio 3</h1>
+    <script>
+        let pergunta = prompt("Você é maior de idade?\nResponda com 'SIM' ou 'NÃO'.")
+        if(pergunta.toUpperCase() == "SIM"){
+            alert("Parabens");
+        }else if(pergunta.toUpperCase() == "NÃO" || pergunta.toUpperCase() == "NAO"){
+            let resposta = prompt("Qual sua idade?");
+            alert(resposta);
+        }else{
+            confirm("Você tem noção dos seus atos?")
+        }
+    </script>
+</body>
+</html>

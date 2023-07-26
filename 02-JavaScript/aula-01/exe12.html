@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 12</title>
+</head>
+<body>
+    <h1>Exercicio 12</h1>
+    <script>
+        let nota1 = parseInt(prompt("Vamos calcular sua média ponderada!\n\nDigite a primeira nota:"))
+        while(isNaN(nota1)){
+            alert("Escreva um valor valido!");
+            nota1 = parseInt(prompt("Vamos calcular sua média ponderada!\n\nDigite a primeira nota:"))
+        }
+        let peso1 = parseInt(prompt("Digite o peso da primeira nota:"))
+        while(isNaN(peso1)){
+            alert("Escreva um valor valido!");
+            peso1 = parseInt(prompt("Digite o peso da primeira nota:"))
+        }
+        let nota2 = parseInt(prompt("Digite a segunda nota:"))
+        while(isNaN(nota2)){
+            alert("Escreva um valor valido!");
+            nota2 = parseInt(prompt("Digite a segunda nota:"))
+        }
+        let peso2 = parseInt(prompt("Digite o peso da segunda nota:"))
+        while(isNaN(peso2)){
+            alert("Escreva um valor valido!");
+            peso2 = parseInt(prompt("Digite o peso da segunda nota:"))
+        }
+        let nota3 = parseInt(prompt("Digite a terceira nota:"))
+        while(isNaN(nota3)){
+            alert("Escreva um valor valido!");
+            nota3 = parseInt(prompt("Digite a terceira nota:"))
+        }
+        let peso3 = parseInt(prompt("Digite o peso da terceira nota:"))
+        while(isNaN(peso3)){
+            alert("Escreva um valor valido!");
+            peso3 = parseInt(prompt("Digite o peso da terceira nota:"))
+        }
+
+        alert("A média ponderada do aluno é: " + mediaPonderada(nota1,peso1,nota2,peso2,nota3,peso3));
+
+        function mediaPonderada(n1,p1,n2,p2,n3,p3){
+            return ((n1*p1 + n2*p2 + n3*p3)/(p1 + p2 + p3)).toFixed(2)
+        }
+    </script>
+</body>
+</html>

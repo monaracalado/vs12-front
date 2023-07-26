@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 8</title>
+</head>
+<body>
+    <h1>Exercicio 8</h1>
+    <script>
+        
+        let operacao = prompt("Informe quais das seguintes operações você deseja: +  -  *  /");
+        while((operacao != '+') && (operacao != '-') && (operacao != '*') && (operacao != '/')){
+            alert("Escreva um valor valido!");
+            operacao = prompt("Informe quais das seguintes operações você deseja: +  -  *  /");
+        }
+        
+        let primeiroNumero = parseInt(prompt("Informe o primeiro valor:"));
+        while(isNaN(primeiroNumero)){
+            alert("Escreva um valor valido!");
+            primeiroNumero = parseInt(prompt("Informe o primeiro valor:"));
+        }
+           
+        let segundoNumero = parseInt(prompt("Informe o segundo valor:"));
+        while(isNaN(segundoNumero) || (operacao =="/" && (segundoNumero == 0))){
+            alert("Escreva um valor valido ou diferente de 0!");
+            segundoNumero = parseInt(prompt("Informe o primeiro valor:"));
+        }
+
+
+        switch(operacao){
+            case '+':
+                alert(`O resultado é: ${primeiroNumero} ${operacao} ${segundoNumero} = ${soma(primeiroNumero, segundoNumero)}`);
+                break
+            case '-':
+                alert(`O resultado é: ${primeiroNumero} ${operacao} ${segundoNumero} = ${subt(primeiroNumero, segundoNumero)}`);
+                break;
+            case '*':
+                alert(`O resultado é: ${primeiroNumero} ${operacao} ${segundoNumero} = ${mult(primeiroNumero, segundoNumero)}`);
+                break;
+            case '/':
+                alert(`O resultado é: ${primeiroNumero} ${operacao} ${segundoNumero} = ${div(primeiroNumero, segundoNumero)}`);
+                break;
+        }
+
+        function soma(a,b){
+            return a+b;
+        }
+        function subt(a,b){
+            return a-b;
+        }
+        function mult(a,b){
+            return a*b;
+        }
+        function div(a,b){
+            return a/b;
+        }
+
+    </script>
+</body>
+</html>

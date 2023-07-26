@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 9</title>
+</head>
+<body>
+    <h1>Exercicio 9</h1>
+    <script>
+        let primeiraIdade = parseInt(prompt("Vamos comparar as idades!\nEscreva a primeira idade: ")) 
+        while(isNaN(primeiraIdade)){
+            alert("Escreva um valor valido!");
+            primeiraIdade = parseInt(prompt("Escreva a primeira idade: "));
+        }
+
+        let segundaIdade = parseInt(prompt("Escreva a segunda idade: ")) 
+        while(isNaN(segundaIdade)){
+            alert("Escreva um valor valido!");
+            segundaIdade = parseInt(prompt("Escreva a segunda idade: "));
+        }
+        alert("Nossa diferença de idade é: " + (primeiraIdade - segundaIdade));
+
+
+    </script>
+</body>
+</html>
