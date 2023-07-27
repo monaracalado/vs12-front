@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio 6</title>
+    <script src="https://kit.fontawesome.com/3df637a2f2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Exercio 6</h1>
+        <h2>Calculadora II em Js</h2>
+      <div class="calculator">
+        <p>Calculadora</p>
+        <p class="result" id="resultado"></p>
+
+        <table>
+          <tr>
+            <td>
+              <button class="btn especial" style="width: 6.625rem" onclick="limparTudo()">
+                AC
+              </button>
+            </td>
+
+            <td>
+              <button class="btn" onclick="limpar()">
+                <i class="fas fa-backspace"></i>
+              </button>
+            </td>
+
+            <td>
+              <button class="btn especial" onclick="inserir('/')">
+                <i class="fas fa-divide fa-sm"></i>
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td><button class="btn" onclick="inserir('7')">7</button></td>
+            <td><button class="btn" onclick="inserir('8')">8</button></td>
+            <td><button class="btn" onclick="inserir('9')">9</button></td>
+            <td>
+              <button class="btn especial" onclick="inserir('*')">x</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td><button class="btn" onclick="inserir('4')">4</button></td>
+            <td><button class="btn" onclick="inserir('5')">5</button></td>
+            <td><button class="btn" onclick="inserir('6')">6</button></td>
+            <td>
+              <button class="btn especial" onclick="inserir('-')">-</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td><button class="btn" onclick="inserir('1')">1</button></td>
+            <td><button class="btn" onclick="inserir('2')">2</button></td>
+            <td><button class="btn" onclick="inserir('3')">3</button></td>
+            <td>
+              <button class="btn especial" onclick="inserir('+')">+</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td><button class="btn" onclick="inserir('0')">0</button></td>
+            <td><button class="btn" onclick="inserir('.')">.</button></td>
+            <td>
+              <button id="igual"
+                class="btn especial"
+                style="width: 6.625rem"
+                onclick="confirma()"
+              >
+                =
+              </button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
