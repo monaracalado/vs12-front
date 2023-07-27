@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+
+    <script src="./js/script.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <h1>Exercicio 4</h1>
+    <h2>Trocando filtro de imagem</h2>
+    <div style="width: 40%; border: solid .0625rem rgb(182, 181, 181); text-align: center;"><br>
+        <input
+        type="button"
+        class="btn btn-danger"
+        onclick="trocarImagem('Astral')"
+        value="Filtro Astral"
+      />
+      <input
+        type="button"
+        class="btn btn-danger"
+        onclick="trocarImagem('Latte')"
+        value="Filtro Latte"
+      />
+      <input
+        type="button"
+        class="btn btn-danger"
+        onclick="trocarImagem('')"
+        value="Redefinir"
+      /> <hr>
+    <img src="./assets/Moby_Dyck.png" width="60%" id="mobyDyck" alt="Moby Dyck">
+    </div>
+    
+    
+</body>
+</html>

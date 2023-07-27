@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio 5</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./js/script.js"></script>
+  </head>
+  <body>
+    <h1>Exercicio 5</h1>
+    <fieldset>
+      <form action="">
+        <h2>Calculadora I Simples</h2>
+        <label for="valor1">Digite o valor 1:</label>
+        <input id="valor1" type="number" />
+        <label for="valor2">Digite o valor 2:</label>
+        <input id="valor2" type="number" />
+        <label for="operacao">Selecione a operação</label>
+        <select name="operacao" id="operacao">
+          <option value="" disabled selected>Selecione</option>
+          <option value="+">Somar</option>
+          <option value="-">Subtrair</option>
+          <option value="*">Multiplicar</option>
+          <option value="/">Dividir</option>
+        </select>
+        <label for="resultado" >Resultado</label>
+        <input id="resultado" disabled />
+        <button type="button" onclick="calcular()">Calcular</button>
+        <button type="button" onclick="limparCampos()">Limpar</button>
+      </form>
+    </fieldset>
+  </body>
+</html>

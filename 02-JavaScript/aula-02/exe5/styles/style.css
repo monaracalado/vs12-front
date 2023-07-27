@@ -1,0 +1,33 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+fieldset{
+    margin: .625rem 30%;
+    padding: 2%;
+    border-radius: .3125rem;
+}
+
+fieldset,h2,input,select,button{
+    border: solid 1px rgb(201, 197, 197);
+
+}
+
+h2{
+    background-color: #faebd7;
+}
+input,select,button{
+    display: block;
+    width: 100%;
+    height: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+button{
+    margin-top: .3125rem;
+    height: 2rem;
+    border: none;
+    background-color: #dc3545;
+    border-radius: .3125rem;
+    color: white;
+    cursor: pointer;
+}
