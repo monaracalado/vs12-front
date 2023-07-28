@@ -1,0 +1,15 @@
+.principal{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2{
+    font-size: 1.3rem!important;
+}
+
+td > button{
+    width: 7.5rem!important;
+    height: 3.875rem;
+}
