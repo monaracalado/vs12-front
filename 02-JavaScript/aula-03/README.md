@@ -1,7 +1,8 @@
-<h1 align="center"> Site VemSer Coffee ☕</h1>
+<h1 align="center"> JavaScript - Task 03</h1>
 
-<p align="center"> Recriando site com base no Figma<br/>
+<p align="center"> Exercícios da aula 3 de JavaScript<br/>
 </p>
+
 
 
 <p align="center">
@@ -9,8 +10,9 @@
   <a href="#-sobre-o-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;
 </p>
 <p align="center">
-  <img alt="imagem do site VemSer Coffee" src="./assets/site-coffee.png">
+  <img alt="imagem do site VemSer Coffee" src="./assets/task-03.png">
 </p>
+
 
 
 
@@ -20,11 +22,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
+- JavaScript
 
 ## 💻 Sobre o Projeto
 
-Este projeto foi feito a partir da recriação de um site tendo como base um modelo do figma.
-
-
-
-<img alt="imagem do site VemSer Coffee" src="./assets/creditos.png">
+Criado para testar as atividades propostas em aula. As ativides que utilizam o console estão sinalizadas.
