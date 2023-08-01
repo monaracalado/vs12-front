@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-05</title>
+
+    <script src="./js/script.js"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="./assets/laptop-code-solid.svg " type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="container text-center">
+    <h1 class="p-4">Task-05 <br> JavaScript - Assíncrono</h1>
+    <main class="principal d-flex justify-content-center flex-wrap gap-5">
+
+        <div class="card" style="width: 19rem;">
+            <div class="card-header">
+              <h2>Exercicio 1</h2>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Mensasem após 3 segundos</h5>
+                <p id="mensagem" class="card-text"></p>
+              <button type="button" onclick="ConexaoFalaha(3000)" class="btn btn-primary">Mensagem</button>
+              <button type="button" onclick="limparMensagem()" class="btn btn-danger">Limpar</button>
+            </div>
+        </div>
+        <div class="card" style="width: 19rem;">
+            <div class="card-header">
+                <h2>Exercicio 2</h2>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Relogio após 2 segundos</h5>
+                <p id="relogio" class="card-text"></p>
+                <button type="button" onclick="startRelogio(2000);" class="btn btn-primary">Iniciar</button>
+                <button type="button" onclick="limparRelogio()" class="btn btn-danger">Limpar</button>
+            </div>
+          </div>
+        <div class="card" style="width: 19rem;">
+            <div class="card-header">
+                <h2>Exercicio 3</h2>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title ">Troca de cores com intervalo</h5>
+                <p id="cores" class="card-text textCor fw-bold ">Esse texto terá a cor alterada!</p>
+                <button type="button" onclick="trocarCor()" class="btn btn-primary">Trocar cor</button>
+                <button type="button" onclick="pararTroca()" class="btn btn-danger">Parar troca</button>
+            </div>
+          </div>
+        <div class="card" style="width: 19rem;">
+            <div class="card-header">
+                <h2>Exercicio 4</h2>
+            </div>
+            <div class="card-body d-flex flex-column align-items-center ">
+                <h5 class="card-title">Sorteio de nomes</h5>
+                <label for="nomes">Sorteio de nomes</label>
+                <input type="text" class="form-control w-75" name="nomes" id="nomes" disabled >
+                <label for="velocidade">Velocidade de alternancia:</label>
+                <input type="number" class="form-control w-50 " name="velocidade" id="velocidade">
+                <label for="tempo">Tempo de sorteio:</label>
+                <input type="number" name="tempo" class="form-control w-50 " id="tempo">
+                <span>*em milesegundos</span><br>
+                <div>
+
+                    <button type="button" onclick="começarSorteio()" class="btn btn-primary">Sortear</button>
+                    <button type="button" onclick="limparSorteio()" class="btn btn-danger">Limpar</button>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 19rem;">
+            <div class="card-header">
+                <h2>Exercicio 5</h2>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Personagens de Rick and Morty</h5>
+                <label for="personagem" class="visually-hidden">Personagem:</label>
+                <input type="text" class="form-control w-100" id="personagem" placeholder="Personagem">
+                <div class="m-3 ">
+                    <button type="button" class="btn btn-primary" onclick="pesquisarPersonagem()">Pesquisar</button>
+                    <button type="button" onclick="limparPersonagem()" class="btn btn-danger">Limpar</button>
+           </div>
+        <div id="resposta"></div>
+            </div>
+          </div>
+
+        
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

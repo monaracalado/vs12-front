@@ -1,0 +1,38 @@
+body{
+    background-color: #8a2be2;
+    margin: 1.25rem 0;
+}
+
+h1{
+    font-size: 3rem;
+}
+.card{
+    border: none;
+    border-radius: .375rem;
+
+}
+.card-header{
+    background-color: #360d5c;
+}
+
+.card-body{
+    background-color: #e3e2e4;
+}
+
+h2{
+    font-size: 1.3rem;
+    color: #c0c0c0;
+}
+
+td > button{
+    width: 7.5rem;
+    height: 3.875rem;
+}
+
+.textCor{
+    font-size: 1.1rem;
+}
+
+span{
+    font-size: .8125rem;
+}
